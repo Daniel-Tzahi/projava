@@ -11,6 +11,7 @@ public class tar3Servlet extends HttpServlet {
 
 			public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 			resp.setContentType("text/plain");
+			resp.getWriter().println("Answer to Question 1:");
 			resp.getWriter().println("Area of circle with radius: " + (radius) + " is: " + (int)((radius * radius)*num) + " squarecm.");
 	}
 	
