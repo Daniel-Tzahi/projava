@@ -3,7 +3,7 @@ import java.io.IOException;
 
 import javax.servlet.http.*;
 
-@SuppressWarnings({ "serial", "unused" })
+@SuppressWarnings("serial")
 public class tar3Servlet extends HttpServlet {
 	
 			int radius = 50;
