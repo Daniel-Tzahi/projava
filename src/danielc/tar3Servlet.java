@@ -3,8 +3,6 @@ import java.io.IOException;
 
 import javax.servlet.http.*;
 
-import danielc.tar3;
-
 @SuppressWarnings({ "serial", "unused" })
 public class tar3Servlet extends HttpServlet {
 	
