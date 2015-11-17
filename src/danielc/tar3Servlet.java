@@ -5,7 +5,7 @@ import danielc.AdvancedMath;
 
 import javax.servlet.http.*;
 
-@SuppressWarnings({ "serial", "unused" })
+@SuppressWarnings("serial")
 public class tar3Servlet extends HttpServlet {
 	
 			public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
