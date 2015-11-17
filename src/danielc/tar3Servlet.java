@@ -13,7 +13,7 @@ public class tar3Servlet extends HttpServlet {
 
 			AdvancedMath mathManager = new AdvancedMath();
 			String resultStr = mathManager.getResults();
-			resp.getWriter().println("Answer to Question 1:");
+			
 			resp.getWriter().println(resultStr);
 			
 			

@@ -4,7 +4,7 @@ public class AdvancedMath {
 	
 	int radius = 50;
 	double num = Math.PI;
-	int degree = 30;
+	double degree = Math.toRadians(30);
 	double hypotenuse =50;
 	double sin = Math.sin(degree);
 	double opposite;
@@ -20,7 +20,7 @@ public class AdvancedMath {
 	
 
 	public String getResults() {
-		String result= new String (line1 +"<br>" + line2 +"<br>" + line3 + "<br>");
+		String result= new String ( "Qustion 1: <br>" + line1 + "<br>" + "Qustion 2: <br>"  + line2 +"<br>" + "Qustion 3: <br>"  + line3 + "<br>");
 		return result;
 	}
 
